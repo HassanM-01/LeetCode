@@ -18,4 +18,4 @@ def findMin(self, nums: List[int]) -> int:
         else:
             r = m - 1  # check to see if right pointer needs to be moved to the other half
 
-    return res  # return result variable
+    return res  # return result var
