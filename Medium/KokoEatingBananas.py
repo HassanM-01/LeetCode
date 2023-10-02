@@ -19,4 +19,3 @@ def minEatingSpeed(self, piles: List[int], h: int) -> int:
     return res
 
 
-
