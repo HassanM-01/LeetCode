@@ -1,12 +1,12 @@
 def backspaceCompare(self, s: str, t: str) -> bool:
-    stack1 = []
+    stack1 = []  # initializes an empty list called stack1 & stack2
     stack2 = []
 
-    for i in s:
-        if i != "#":
-            stack1.append(i)
+    for i in s:  # iterates over each character i in the first string s
+        if i != "#":  # checks if the character i is not a backspace character
+            stack1.append(i)  # append if condition is true
         else:
-            stack1.pop()
+            stack1.pop()  # removes the last character from stack1, effectively simulating the backspace operation
 
     for y in t:
         if y != "#":
@@ -14,4 +14,4 @@ def backspaceCompare(self, s: str, t: str) -> bool:
         else:
             stack2.pop()
 
-    return stack1 == stack2
+    return stack1 == stack2  # compare the two lists and return true or false
