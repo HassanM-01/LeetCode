@@ -11,4 +11,3 @@ class Solution:
             prev = curr   # Move prev and curr one step forward in the list
             curr = nxt
         return prev
-

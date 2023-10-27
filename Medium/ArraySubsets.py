@@ -21,4 +21,5 @@ def subsetA(arr):
     return res
 
 
+
 subsetA(arr)
