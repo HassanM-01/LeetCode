@@ -15,3 +15,4 @@ def backspaceCompare(self, s: str, t: str) -> bool:
             stack2.pop()
 
     return stack1 == stack2  # compare the two lists and return true or false
+
